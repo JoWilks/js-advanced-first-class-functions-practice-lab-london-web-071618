@@ -13,3 +13,7 @@ function logDriversByHometown(drivers, location) {
     }
   })
 }
+
+function driversbyRevenue() {
+  
+}
