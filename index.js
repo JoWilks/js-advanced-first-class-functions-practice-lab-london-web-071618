@@ -8,6 +8,6 @@ const logDriverNames = collection => {
 
 function logDriversByHometown(drivers, location) {
   drivers.forEach(function(driver) {
-    
+    console.log(driver)
   })
 }
