@@ -15,5 +15,13 @@ function logDriversByHometown(drivers, location) {
 }
 
 function driversByRevenue(drivers) {
-  drivers.map(x => x.revenue)
+  let sortable = [];
+  for (var key in drivers)
+    if(drivers.hasOwnProperty(key))
+      sortable.push([key, obj[key]]);
+  sortable.sort(function(a, b){
+    return a[1]-b[1];
+  })
+  return sortable
+  }
 }
