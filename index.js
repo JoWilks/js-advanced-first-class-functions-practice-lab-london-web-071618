@@ -33,5 +33,6 @@ function driversByName(drivers) {
   }
   
     function totalRevenue(drivers) {
-    return totalRevenue(drivers)/(drivers.length)
+    let total = totalRevenue(drivers)
+    let length = (drivers.length)
   }
