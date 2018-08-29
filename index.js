@@ -33,7 +33,5 @@ function driversByName(drivers) {
   }
   
     function totalRevenue(drivers) {
-   return drivers.map(driver => driver.revenue).reduce(function (accumulator, currentValue) {
-      return accumulator + currentValue;
-    }, 0)/(drivers.length)
+    totalRevenue(drivers)/(drivers.length)
   }
