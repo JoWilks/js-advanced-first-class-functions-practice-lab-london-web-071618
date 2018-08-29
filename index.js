@@ -16,8 +16,7 @@ function logDriversByHometown(drivers, location) {
 
 function driversByRevenue(drivers) {
   let sorted = drivers
-   sorted = drivers.sort(function(a,b) {
+   return drivers.sort(function(a,b) {
      return a.revenue - b.revenue
   })
-  return sorted
   }
