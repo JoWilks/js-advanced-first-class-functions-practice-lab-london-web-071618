@@ -1,3 +1,3 @@
 // Code your solution in this file!
 
-const logDriverNames = 
+const logDriverNames = collection => collection;
