@@ -27,5 +27,6 @@ function driversByName(drivers) {
   }
   
   function totalRevenue(drivers) {
-    drivers.map(driver => driver.revenue).reduce()
+   let revenues = drivers.map(driver => driver.revenue)
+   revenues.reduce()
   }
