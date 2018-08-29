@@ -15,5 +15,5 @@ function logDriversByHometown(drivers, location) {
 }
 
 function driversByRevenue(drivers) {
-  drivers.map()
+  drivers.map(x => x.revenue)
 }
