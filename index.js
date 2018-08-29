@@ -26,3 +26,6 @@ function driversByName(drivers) {
   })
   }
   
+  function totalRevenue(drivers) {
+    revenuee
+  }
