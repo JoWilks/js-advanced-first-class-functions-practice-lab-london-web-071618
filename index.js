@@ -2,6 +2,6 @@
 
 const logDriverNames = collection => {
   collection.forEach(function(el) {
-    console.log(element)
+    console.log(el)
   })
 };
