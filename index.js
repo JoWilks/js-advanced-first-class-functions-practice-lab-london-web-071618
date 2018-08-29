@@ -18,7 +18,7 @@ function driversByRevenue(drivers) {
   let sortable = [];
   for (var key in drivers)
     if(drivers.hasOwnProperty(key))
-      sortable.push([key, obj[key]]);
+      sortable.push([key, drivers[key]]);
   sortable.sort(function(a, b){
     return a[1]-b[1];
   })
