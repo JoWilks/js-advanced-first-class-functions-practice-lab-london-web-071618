@@ -5,3 +5,9 @@ const logDriverNames = collection => {
     console.log(el)
   })
 };
+
+function logDriversByHometown(drivers, location) {
+  drivers.forEach(function(driver) {
+    
+  })
+}
