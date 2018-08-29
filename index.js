@@ -24,4 +24,3 @@ function driversByRevenue(drivers) {
   })
   return sortable
   }
-}
