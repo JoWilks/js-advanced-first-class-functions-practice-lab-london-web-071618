@@ -33,5 +33,5 @@ function driversByName(drivers) {
   }
   
     function totalRevenue(drivers) {
-    totalRevenue(drivers)/(drivers.length)
+    return totalRevenue(drivers)/(drivers.length)
   }
