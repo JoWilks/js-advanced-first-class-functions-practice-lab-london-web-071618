@@ -8,6 +8,8 @@ const logDriverNames = collection => {
 
 function logDriversByHometown(drivers, location) {
   drivers.forEach(function(driver) {
+    if (driver.hometown === location) {
     console.log(driver)
+    }
   })
 }
